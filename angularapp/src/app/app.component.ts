@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipes';
-  fromCurr :String = '';
+  fromCurr :string = '';
   toCurr   :string = '';
   amount !:number;
   result: string = 'sample';
