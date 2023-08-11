@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class CurrencyconvPipe implements PipeTransform {
 
-  transform(value: number, from:string,to:String): any {
+  transform(value: number, from:string,to:string): any {
 
     if(from == to)
     {
@@ -38,7 +38,7 @@ export class CurrencyconvPipe implements PipeTransform {
     }
 
     interface Exchange {
-      id :String;
+      id :string;
       value :number;
     }
 
